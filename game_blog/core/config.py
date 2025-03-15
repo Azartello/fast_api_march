@@ -21,14 +21,14 @@ TemplateResponse = templates.TemplateResponse
 
 
 mail_conf = ConnectionConfig(
-    MAIL_USERNAME="testaccountruslan",
-    MAIL_PASSWORD="ihildpyppazpehje",
-    MAIL_FROM="testaccountruslan@yandex.ru",
-    MAIL_PORT=465,
-    MAIL_SERVER="smtp.yandex.ru",
-    MAIL_FROM_NAME="Test Messages",
-    MAIL_TLS=False,
-    MAIL_SSL=True,
+    MAIL_USERNAME="timuhinasofa",
+    MAIL_PASSWORD="ваш пароль gmail",
+    MAIL_FROM="timuhinasofa@gmail.com",
+    MAIL_PORT=587,
+    MAIL_SERVER="smtp.gmail.com",
+    MAIL_FROM_NAME="FastAPI",
+    MAIL_TLS=True,
+    MAIL_SSL=False,
     USE_CREDENTIALS=True,
     VALIDATE_CERTS=True
 )
